@@ -46,4 +46,20 @@ document.addEventListener("DOMContentLoaded", (event) => {
   buttons.forEach((button) => {
     button.addEventListener("click", handleClick);
   });
+  document.addEventListener("keyup", (event) => {
+    if (lightboxNav.classList.contains("collapsed")) return;
+    switch (event.key) {
+      case "ArrowLeft":
+        previousButton.click();
+        break;
+      case "ArrowRight":
+        nextButton.click();
+        break;
+      case "Escape":
+        lightboxInputs.forEach(
+          (lightboxInput) => (lightboxInput.checked = false)
+        );
+        break;
+    }
+  });
 });
