@@ -1,5 +1,5 @@
 # lightbox
-Simple lightbox without nav
+Simple lightbox without nav, [check it out](https://datene.github.io/lightbox/index.html)
 
 
 ### Steps to implement:
