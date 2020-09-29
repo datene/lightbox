@@ -21,8 +21,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
   const handleNav = (input) => {
     if (!input.checked) {
       lightboxNav.classList.add("collapsed");
+      document.body.style.overflow = "scroll";
     } else {
       lightboxNav.classList.remove("collapsed");
+      document.body.style.overflow = "hidden";
     }
 
     const currentIndex = [...lightboxInputs].findIndex(

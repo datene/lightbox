@@ -26,6 +26,7 @@
 }
 
 .lightbox-image input:checked + label img {
+  position: fixed;
   object-fit: contain;
   background-color: black;
   padding: 50px;
