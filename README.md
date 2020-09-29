@@ -23,6 +23,7 @@ When an images is clicked again it toggles the checkbox off
 
 
 ### You want nav? We got nav. Just need a tiny bit of JS
+Simple lightbox _with_ nav, [check it out](https://datene.github.io/lightbox/with_js.html)
 - [Include the JS for the nav in your project](https://github.com/datene/lightbox/blob/master/all.js)
 - Add the HTML for the navigation somewhere (preferably in the same container, but it doesn't really matter) on the page where you placed your lightboxes
 ```
